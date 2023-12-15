@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
+  { href: '/', key: 'how_hilink_work', label: 'How Tramp Work?' },
   { href: '/', key: 'services', label: 'Services' },
   { href: '/', key: 'pricing ', label: 'Pricing ' },
   { href: '/', key: 'contact_us', label: 'Contact Us' },
@@ -52,7 +52,7 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
+      'About Us',
       'Press Releases',
       'Environment',
       'Jobs',
@@ -62,7 +62,7 @@ export const FOOTER_LINKS = [
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    links: ['Trimbing', 'T-ramp', 'Trampers'],
   },
 ];
 
@@ -70,17 +70,33 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
     { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Email Officer', value: 'tramp@gmail.com' },
   ],
 };
 
 export const SOCIALS = {
   title: 'Social',
   links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
-  ],
+    {
+      image: '/facebook.svg',
+      url: 'https://www.facebook.com'
+    },
+    {
+      image: '/instagram.svg',
+      url: 'https://www.instagram.com'
+    },
+    {
+      image: '/twitter.svg',
+      url: 'https://www.twitter.com'
+    },
+    {
+      image: '/youtube.svg',
+      url: 'https://www.youtube.com'
+    },
+    {
+      image: '/wordpress.svg',
+      url: 'https://www.wordpress.com'
+    }
+  ]
+  
 };
